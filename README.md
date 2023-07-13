@@ -25,10 +25,6 @@ git clone https://github.com/princegupta1131/common-consumption-demo/tree/cc-boo
 ---
 ## Install Dependencies
 Navigate to the project's root directory by running the following command:
-
-```
-
-Then, install the project dependencies by running:
 ```
 yarn install
 ```
