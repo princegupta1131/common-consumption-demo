@@ -20,7 +20,7 @@ npm install -g @angular/cli@14
 ## Clone the Repository
 To clone the repository, open a terminal and run the following command:
 ```
-git clone https://github.com/princegupta1131/common-consumption-demo/tree/cc-bootcamp-demo
+git clone https://github.com/princegupta1131/common-consumption-demo.git
 ```
 ---
 ## Install Dependencies
