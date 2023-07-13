@@ -25,10 +25,17 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*.*",
+                "input": "./node_modules/common-consumption-bootcamp/assets",
+                "output": "./assets/common-consumption"
+              }
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "src/styles.scss",
+              "./node_modules/@project-sunbird/sb-styles/assets/styles.scss"
             ],
             "scripts": []
           },
@@ -103,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "031a53f7-4bda-48e3-8cf4-051055aef202"
   }
 }
